@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from cymolthemes.com/html/autovis/demo3/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 19:22:00 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="Autovis - Car Dealers HTML Template, Autovis - Car Dealers WordPress Theme, wordpress theme, premium wordpress theme, responsive wordpress theme, themeforest, envato,  themes & templates, wordpress theme, unlimited colors available, ui/ux, ui/ux design, best wordpress theme, wordpress theme, JavaScript, best css theme,css3, elementor theme, latest premium themes 2024, latest premium templates 2024, Preyan Technosys Pvt.Ltd, cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, bootstrap template, web templates, responsive theme, services, web design and development, blog website, HTML template, Html5, auto, business, car dealer, car dealership, car listing, cars, listing, motors, automotive, car repair, cardealer, cars, directory, elementor, car inventory, vehicle,  auto, auto dealer, auto shop, bike, buy car, car store, accessories shop, car ecommerce, car seller, car listing, auto dealer, auto parts, automobile, car rental, car repair, car shop, car wash, garage, marketplace, motor cycle, trucks" >
+<meta name="description" content="Autovis - Car Dealers HTML Template" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autovis - Car Dealers HTML Template</title>
+
+<link rel="shortcut icon" href="images/favicon.webp">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/all.min.css">
+<link rel="stylesheet" type="text/css" href="css/fontello.css">
+<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+<link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/aos.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="css/graphik.css">
+<link rel="stylesheet" type="text/css" href="css/shortcodes.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/megamenu.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+
+    <!-- page start -->
+    <div class="page bg-base-grey">
+
+        <div class="main-box">
+
+            <!--model register  -->
+            <div class="modal signUp-modal fade" id="modal-signup" tabindex="-1" aria-labelledby="modal-signupLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="modal-signupLabel">Register</h3>
+                            <p>Already have an account? <button class="signupbtn prt-btn btn-inline" type="button" data-bs-toggle="modal" data-bs-target="#modal-login">Log In</button></p>
+                            <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <form class="signup-form">
+                                        <p class="prt-inputs">
+                                            <i class="icon-user mt_5"></i>
+                                            <input type="text" name="username" class="username form-control" placeholder="Enter name">
+                                        </p>
+                                        <p class="prt-inputs">
+                                            <i class="ti-email"></i>
+                                            <input type="text" name="email" class="email form-control" placeholder="Enter email">
+                                        </p>
+                                        <p class="prt-inputs">
+                                            <i class="fa fa-lock" aria-hidden="true"></i>
+                                            <input type="password" name="password" class="password form-control" placeholder="Enter password">
+                                        </p>
+                                        <p class="prt-inputs">
+                                            <i class="fa fa-lock" aria-hidden="true"></i>
+                                            <input type="password" name="comfirmpassword" class="password form-control" placeholder="Comfirm password">
+                                        </p>
+                                        <p><button type="submit" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor">Sign up now</button></p>
+                                        <p class="mb-15">By sign up you agree to the <a href="#">‘terms & conditons’</a></p>
+                                    </form>
+                                    <ul class="social-icons model-social">
+                                        <li><a target="black" href="https://www.facebook.com/preyantechnosys19" rel="noopener" aria-label="facebook"><i class="ti-facebook"></i></a>
+                                        </li>
+                                        <li><a target="black" href="#" rel="noopener" aria-label="linkedin"><i class="ti-google"></i></a></li>
+                                        <li><a target="black" href="https://twitter.com/PreyanTechnosys" rel="noopener" aria-label="twitter"><i class="flaticon flaticon-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- model register end -->
+            <!-- model login -->
+            <div class="modal signUp-modal fade" id="modal-login" tabindex="-1" aria-labelledby="modal-loginLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="modal-loginLabel">Log In</h3>
+                            <p>Don’t have any account? <button class="signupbtn prt-btn btn-inline" type="button" data-bs-toggle="modal" data-bs-target="#modal-signup">Register</button></p>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <form class="signup-form">
+                                        <p class="prt-inputs">
+                                            <i class="ti-email"></i>
+                                            <input type="text" name="username" class="username form-control" placeholder="Enter email">
+                                        </p>
+                                        <p class="prt-inputs">
+                                            <i class="fa fa-lock" aria-hidden="true"></i>
+                                            <input type="password" name="password" class="password form-control" placeholder="Enter password">
+                                        </p>
+                                        <p class="cookies">
+                                            <span><input type="checkbox" name="cookies-consent" id="cookies-consent2">
+                                            <label for="cookies-consent2"></label>
+                                             Keep me signed in  
+                                            </span><a href="#">Lost your password?</a>
+                                        </p>
+                                        <p><button type="submit" class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor">Login</button></p>
+                                        <p class="mb-15">By sign up you agree to the <a href="#">‘terms & conditons’</a></p>
+                                    </form>
+                                    <ul class="social-icons model-social">
+                                        <li><a target="black" href="https://www.facebook.com/preyantechnosys19" rel="noopener" aria-label="facebook"><i class="ti-facebook"></i></a>
+                                        </li>
+                                        <li><a target="black" href="#" rel="noopener" aria-label="linkedin"><i class="ti-google"></i></a></li>
+                                        <li><a target="black" href="https://twitter.com/PreyanTechnosys" rel="noopener" aria-label="twitter"><i class="flaticon flaticon-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- model login end -->
+ 
+            <!-- header start -->
+            <header id="masthead" class="header prt-header-style-01">
+                <!-- site-header-menu -->
+                <div id="site-header-menu" class="site-header-menu">
+                    <div class="site-header-menu-inner prt-stickable-header">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="header-menu-wrapper">
+                                        <!--site-navigation -->
+                                        <div class="site-navigation d-flex align-items-center justify-content-between">
+                                            <!-- site-branding -->
+                                            <div class="site-branding">
+                                                <h1><a class="home-link" href="index-2.html" title="Autovis" rel="home">
+                                                    <img id="logo-img" height="30" width="200" class="img-fluid auto_size" src="images/logo.svg" alt="logo-img">
+                                                </a></h1>
+                                            </div>
+                                            <!-- site-branding end -->
+                                            <div class="sitemenu-main d-flex align-items-center">
+                                                <!-- menu-link -->
+                                                <div class="menu-link">
+                                                    <div class="btn-show-menu-mobile menubar menubar--squeeze">
+                                                        <span class="menubar-box">
+                                                            <span class="menubar-inner"></span>
+                                                        </span>
+                                                    </div>
+                                                    <!-- menu -->
+                                                    <nav class="main-menu menu-mobile" id="menu">
+                                                        <ul class="menu">
+                                                            <li class="mega-menu-item active"><a href="#" class="mega-menu-link">Home</a>
+                                                                <ul class="mega-submenu">
+                                                                    <li><a href="../index.html">Cardealer 1</a></li>
+                                                                    <li><a href="../homepage-2.html">Cardealer 2</a></li>
+                                                                    <li class="mega-menu-item"><a href="../demo2/index.html">Modern</a></li>
+                                                                    <li class="mega-menu-item active"><a target="black" href="index.html">Classic</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="mega-menu-item">
+                                                                <a href="#" class="mega-menu-link">Pages</a>
+                                                                <ul class="mega-submenu">
+                                                                    <li><a href="about-us.html">About us</a></li>
+                                                                    <li><a href="services.html">Service</a></li>
+                                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                                    <li><a href="brand.html">Brand category</a></li>
+                                                                    <li><a href="special-offer.html">Special offer</a></li>
+                                                                    <li><a href="our-team.html">Our team</a></li>
+                                                                    <li><a href="team-details.html">Team details</a></li>
+                                                                    <li><a href="reviews.html">Customer review</a></li>
+                                                                    <li><a href="faq.html">FAQ</a></li>
+                                                                    <li><a href="error.html">Error page</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="mega-menu-item"><a href="listing.html">Listing</a></li>
+                                                            <li class="mega-menu-item">
+                                                                <a href="#" class="mega-menu-link">Blog</a>
+                                                                <ul class="mega-submenu">
+                                                                    <li><a href="blog.html">Blog classic</a></li>
+                                                                    <li><a href="blog-single.html">Blog single view</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="mega-menu-item"><a href="contact-us.html">Contact us</a></li>
+                                                        </ul>
+                                                    </nav><!-- menu end -->
+                                                </div>
+                                                <!-- menu-link end-->
+                                                <!-- header_extra -->
+                                                <div class="header_extra d-flex align-items-center">
+                                                    <div class="signupbtn-wrap">
+                                                        <button class="signupbtn prt-btn btn-inline" type="button" data-bs-toggle="modal" data-bs-target="#modal-signup"><i class="icon-user-o"></i> Sign up</button>
+                                                    </div>
+                                                    <div class="prt-link ml-15">
+                                                        <a class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor" href="contact-us.html">Get in Touch</a>
+                                                    </div>
+                                                </div>
+                                                <!-- header_extra -->
+                                            </div>
+                                        </div><!-- site-navigation end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- site-header-menu end-->
+            </header><!-- header end -->
+
+            <!-- banner-section -->
+            <section class="prt-row prt-bg bg-base-grey banner-section banner_slider_wrapper  position-relative clearfix">
+                <div class="container">
+                   <div class="row">
+                        <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                            <div class="banner-wrapper" data-aos="fade-up" data-aos-duration="1500">
+                                <!-- banner-title -->
+                                <div class="banner-title">
+                                    <div class="prt-banner-tag">
+                                        2022 FORT MUSTANG
+                                    </div>
+                                    <div class="title-header">
+                                       <h2 class="title anim-text-title">Say hello to best car<br> dealer platform</h2>
+                                    </div>
+                                </div>
+                                <div class="banner-desc">
+                                    <p>Step into excellence with our car dealer platform – your gateway to the finest cars, exceptional service, and a world-class automotive experience</p>
+                                </div>
+                                <!-- banner-title end-->
+                                <div class="prt-banner-form-wrapper mt-45 res-1199-mt-20">
+                                    <form class="prt-banner-form">
+                                        <span class="select-option">
+                                            <select id="prtcars" name="prt-cars">
+                                                <option value="select-car">All makes</option>
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="fiat">Fiat</option>
+                                                <option value="audi">Audi</option>
+                                                <option value="audi">Toyota</option>
+                                                <option value="audi">Mazda</option>
+                                                <option value="audi">Jeep wrangler</option>
+                                                <option value="audi">Ferrari</option>
+                                              </select>
+                                        </span>
+                                        <span class="select-option">
+                                            <select id="prtmodels" name="prt-models">
+                                                <option value="select-models">All models</option>
+                                                <option value="lamborghini">Lamborghini (8) </option>
+                                                <option value="mazda">Mazda (10) </option>
+                                                <option value="toyota">Toyota (8) </option>
+                                                <option value="audi">Audi (5)</option>
+                                            </select>
+                                        </span>
+                                        <span class="select-option">
+                                            <select id="prtprice" name="prt-price">
+                                                <option value="select-price">Max price</option>
+                                                <option value="price1">$5000</option>
+                                                <option value="price2">$10000</option>
+                                                <option value="price3">$15000</option>
+                                                <option value="price4">$30000</option>
+                                                <option value="price5">$40000</option>
+                                                <option value="price6">$50000</option>
+                                            </select>
+                                        </span>
+                                        <button class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor" type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <div class="prt-banner-brand-wrap mt-40 res-1199-mt-20">
+                                    <p class="mb-20">Populars brands</p>
+                                    <span><a href="#"><img width="36" height="36" class="img-fluid" src="images/category/icon-01.svg" alt="icon"></a></span>
+                                    <span><a href="#"><img width="36" height="36" class="img-fluid" src="images/category/icon-02.svg" alt="icon"></a></span>
+                                    <span><a href="#"></a><img width="29" height="36" class="img-fluid" src="images/category/icon-03.svg" alt="icon"></span>
+                                    <span><a href="#"><img width="36" height="36" class="img-fluid" src="images/category/icon-04.svg" alt="icon"></a></span>
+                                    <span><a href="#"><img width="36" height="28" class="img-fluid" src="images/category/icon-05.svg" alt="icon"></a></span>
+                                    <span><a href="#"><img width="36" height="36" class="img-fluid" src="images/category/icon-06.svg" alt="icon"></a></span>
+                                </div>
+                                <div class="prt-overlay-wrap">
+                                    <img width="56" height="43" class="img-fluid" src="images/patten.webp" alt="icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                            <div class="banner-video-autoplay-wrapper ml-30 res-1199-ml-0 res-1199-mt-30">
+                                <div class="banner-video-autoplay">
+                                    <video class="img-fluid" loop="" autoplay="autoplay" controls="controls" muted="" content="noindex">
+                                        <source src="images/video-bg1.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </section>
+            <!-- banner-section-end -->        
+
+        </div>
+        
+        <!-- site-main start -->
+        <div class="site-main">
+
+            <!-- service-section -->
+            <section class="prt-row service-section clearfix">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <!-- prt_single_image-wrapper -->
+                            <div class="prt_single_image-wrapper about-single-image-wrapper pr-20 res-1199-pr-0" data-aos="fade-right" data-aos-duration="1500">
+                                <img class="img-fluid border-rad_20" src="images/single-img-01.webp" alt="image">
+                            </div>
+                            <!-- prt_single_image-wrapper end-->
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <div class="pl-15 res-991-pl-0 res-991-mt-30">
+                                <div class="section-title mb-0">
+                                    <div class="title-header">
+                                        <h2 class="title">Epitome of modern car dealership excellence</h2>
+                                    </div>
+                                    <div class="title-desc">
+                                        <p>Explore the epitome of modern car dealership excellence at our showroom. from cutting-edge vehicles to personalized service, we redefine the automotive experience with innovation, sophistication, and exceptional service</p>
+                                    </div>
+                                </div>
+                                <div class="row row-equal-height prt-boxes-spacing-10px">
+                                    <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12 prt-box-col-wrapper">
+                                        <!--featured-icon-box-->
+                                        <div class="featured-icon-box icon-align-top-content style1" data-aos="fade-up" data-aos-duration="1000">
+                                            <div class="featured-icon">
+                                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-color-darkcolor prt-icon_element-size-lg">
+                                                    <i class="flaticon flaticon-public-relation"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>Trusted by our clients</h3>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Equip your team with the latest in automotive sales techniques and technologies.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--featured-icon-box end-->
+                                    </div>
+                                    <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12 prt-box-col-wrapper">
+                                        <!--featured-icon-box-->
+                                        <div class="featured-icon-box icon-align-top-content style1" data-aos="fade-up" data-aos-duration="1500">
+                                            <div class="featured-icon">
+                                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-color-darkcolor prt-icon_element-size-lg">
+                                                    <i class="flaticon flaticon-hand"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>Fast & easy financing</h3>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Equip your team with the latest in automotive sales techniques and technologies.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--featured-icon-box end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service-section end -->
+
+            <!-- specialoffer-section -->
+            <section class="prt-row specialoffer-section mt_10 res-991-mt_0 clearfix">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title title-style-center_text">
+                                <div class="title-header">
+                                    <h2 class="title">Top deals car of the week</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row slick_slider slick-dots-style1 spacing-2 mt-15 res-991-mt-0" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "dots":true, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1401,"settings":{"slidesToShow": 3,"arrows":false,"autoplay":true}}, {"breakpoint":1025,"settings":{"slidesToShow": 2, "dots":true,"arrows":false}}, {"breakpoint":992,"settings":{"slidesToShow": 2, "dots":false,"arrows":false}}, {"breakpoint":768,"settings":{"slidesToShow": 1,"dots":false}}]}'>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <!-- featured-imagebox-offercar -->
+                            <div class="featured-imagebox featured-imagebox-offercar">
+                                <div class="featured-thumbnail">
+                                    <img width="414" height="499" class="img-fluid" src="images/offer-car/img-01.webp" alt="image">
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3 class="title"><a href="car-details.html">Chevrolet camaro 2-door</a></h3>
+                                        <p class="price">$55,345.00</p>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <div class="car-features">
+                                            <span class="details">Translation</span>
+                                            <p>Automatic</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Fuel</span>
+                                            <p>Electric</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Passenger</span>
+                                            <p>03 Person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- featured-imagebox-offercar end -->
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <!-- featured-imagebox-offercar -->
+                            <div class="featured-imagebox featured-imagebox-offercar">
+                                <div class="featured-thumbnail">
+                                    <img width="414" height="499" class="img-fluid" src="images/offer-car/img-02.webp" alt="image">
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3 class="title"><a href="car-details.html">Volkswagen golf-2023</a></h3>
+                                        <p class="price">$24,564.00</p>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <div class="car-features">
+                                            <span class="details">Translation</span>
+                                            <p>Automatic</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Fuel</span>
+                                            <p>Electric</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Passenger</span>
+                                            <p>02 Person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- featured-imagebox-offercar end -->
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <!-- featured-imagebox-offercar -->
+                            <div class="featured-imagebox featured-imagebox-offercar">
+                                <div class="featured-thumbnail">
+                                    <img width="414" height="499" class="img-fluid" src="images/offer-car/img-03.webp" alt="image">
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3 class="title"><a href="car-details.html">Subaru outback-2023</a></h3>
+                                        <p class="price">$20,515.00</p>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <div class="car-features">
+                                            <span class="details">Translation</span>
+                                            <p>Automatic</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Fuel</span>
+                                            <p>Electric</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Passenger</span>
+                                            <p>04 Person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- featured-imagebox-offercar end -->
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <!-- featured-imagebox-offercar -->
+                            <div class="featured-imagebox featured-imagebox-offercar">
+                                <div class="featured-thumbnail">
+                                    <img width="414" height="499" class="img-fluid" src="images/offer-car/img-04.webp" alt="image">
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3 class="title"><a href="car-details.html">Tesla Model S-2023</a></h3>
+                                        <p class="price">$24,564.00</p>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <div class="car-features">
+                                            <span class="details">Translation</span>
+                                            <p>Automatic</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Fuel</span>
+                                            <p>Electric</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Passenger</span>
+                                            <p>04 Person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- featured-imagebox-offercar end -->
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <!-- featured-imagebox-offercar -->
+                            <div class="featured-imagebox featured-imagebox-offercar">
+                                <div class="featured-thumbnail">
+                                    <img width="414" height="499" class="img-fluid" src="images/offer-car/img-05.webp" alt="image">
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3 class="title"><a href="car-details.html">Cadillac escalade-2023</a></h3>
+                                        <p class="price">$45,164.00</p>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <div class="car-features">
+                                            <span class="details">Translation</span>
+                                            <p>Automatic</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Fuel</span>
+                                            <p>Electric</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Passenger</span>
+                                            <p>04 Person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- featured-imagebox-offercar end -->
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <!-- featured-imagebox-offercar -->
+                            <div class="featured-imagebox featured-imagebox-offercar">
+                                <div class="featured-thumbnail">
+                                    <img width="414" height="499" class="img-fluid" src="images/offer-car/img-06.webp" alt="image">
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3 class="title"><a href="car-details.html">Mercedes-benz-2023</a></h3>
+                                        <p class="price">$28,564.00</p>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <div class="car-features">
+                                            <span class="details">Translation</span>
+                                            <p>Automatic</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Fuel</span>
+                                            <p>Electric</p>
+                                        </div>
+                                        <div class="car-features">
+                                            <span class="details">Passenger</span>
+                                            <p>04 Person</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- featured-imagebox-offercar end -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- specialoffer-section -->
+
+            <!-- about-section -->
+            <section class="prt-row padding_zero-section about-section02 clearfix">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <!-- prt_single_image-wrapper -->
+                            <div class="prt_single_image-wrapper text-center" data-aos="fade-right" data-aos-duration="1500">
+                                <img width="635" height="455" class="img-fluid border-rad_20" src="images/single-img-3.webp" alt="image">
+                            </div>
+                            <!-- prt_single_image-wrapper end-->
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="section-title style1 mb-0 pl-30 res-1199-pl-0 res-991-mt-30">
+                                <div class="title-header">
+                                    <h2 class="title">We serve you with best car in world</h2>
+                                </div>
+                                <div class="title-desc">
+                                    <p>Discover automotive luxury at our dealership, where we proudly offer the world's finest cars. immerse yourself in unparalleled quality, cutting-edge technology, and exceptional performance. elevate your driving experience with us today</p>
+                                    <div class="prt-playbtn-wrapper d-flex align-items-center mt-25 res-991-mt-10">
+                                         
+                                        <div class="prt-play-icon-btn about-play-icon-btn animated mr-30">
+                                            <div class="prt-play-icon-animation">
+                                                <a href="https://youtu.be/x2Z_eo4LpkU?si=tfYD1Duq7QQpQNPP" target="_self" aria-label="video" class="prt_prettyphoto">
+                                                    <div class="prt-icon prt-icon_element-border prt-icon_element-color-darkcolor prt-icon_element-size-md prt-icon_element-style-rounded">
+                                                        <i class="icon icon-play"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <a href="services.html" class="prt-btn btn-inline prt-btn-color-darkcolor">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about-section end-->
+
+            <!-- cta-section -->
+            <section class="prt-row padding_bottom_zero-section cta-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="prt-cta-wrapper">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7 col-md-12 col-sm-12">
+                                        <div class="pr-20 res-1199-pr-0">
+                                            <div class="section-title cta-section-title mb-0">
+                                                <div class="title-header">
+                                                    <h2 class="title">Get hassel free response on your any queries? Contact us</h2>
+                                                </div>
+                                                <div class="title-desc">
+                                                    <p>Feel free to call our dealership for personalized assistance, detailed information, and exceptional service regarding our vehicles.</p>
+                                                </div>
+                                            </div>
+                                            <div class="cta-btn-wrap">
+                                                <span class="mr-15"><a class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skincolor mt-10" href="tel:1234567890"><i class="flaticon flaticon-missed-call"></i> 225 000 22 44 56</a></span>
+                                                <span><a class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border prt-btn-color-darkcolor mt-10" href="contact-us.html">Contact us</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-12 col-sm-12">
+                                        <!-- prt_single_image-wrapper -->
+                                        <div class="prt_single_image-wrapper res-991-mt-30" data-aos="fade-left" data-aos-duration="1500">
+                                            <img width="520" height="335" class="img-fluid border-rad_20 w-100" src="images/single-img-04.webp" alt="image">
+                                        </div>
+                                        <!-- prt_single_image-wrapper end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- cta-section end-->
+
+            <!-- blog-section -->
+            <section class="prt-row blog-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title title-style-center_text">
+                                <div class="title-header">
+                                    <h2 class="title">Latest news & updates</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-equal-height mt-15" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <!-- featured-imagebox-post -->
+                            <div class="featured-imagebox featured-imagebox-post style1">
+                                <div class="featured-thumbnail">
+                                    <img width="412" height="451" class="img-fluid" src="images/blog/blog-04.webp" alt="blog-image">
+                                </div>
+                                <!-- featured-content -->
+                                <div class="featured-content">
+                                    <div class="featured-content-inner">
+                                        <div class="post-header">
+                                            <div class="post-title featured-title">
+                                                <h3><a href="blog-single.html">Web brilliance with themes & Html template</a></h3>
+                                            </div>
+                                            <!-- post-meta -->
+                                            <div class="post-meta">
+                                                <span class="prt-meta-line tag"><a href="#">Car delaer</a></span>
+                                                <span class="prt-meta-line brand">by slivana</span>
+                                                <span class="prt-meta-line date"><i class="flaticon flaticon-calendar"></i>17 January</span>
+                                            </div><!-- post-meta end -->
+                                        </div>
+                                    </div><!-- featured-content end -->
+                                </div><!-- featured-imagebox-post end -->
+                            </div>
+                            <!-- featured-imagebox-post end-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <!-- featured-imagebox-post -->
+                            <div class="featured-imagebox featured-imagebox-post style1">
+                                <div class="featured-thumbnail">
+                                    <img width="412" height="451" class="img-fluid" src="images/blog/blog-05.webp" alt="blog-image">
+                                </div>
+                                <!-- featured-content -->
+                                <div class="featured-content">
+                                    <div class="featured-content-inner">
+                                        <div class="post-header">
+                                            <div class="post-title featured-title">
+                                                <h3><a href="blog-single.html">Top templates & themes for several services</a></h3>
+                                            </div>
+                                            <!-- post-meta -->
+                                            <div class="post-meta">
+                                                <span class="prt-meta-line tag"><a href="#">Car delaer</a></span>
+                                                <span class="prt-meta-line brand">by slivana</span>
+                                                <span class="prt-meta-line date"><i class="flaticon flaticon-calendar"></i>20 January</span>
+                                            </div><!-- post-meta end -->
+                                        </div>
+                                    </div><!-- featured-content end -->
+                                </div><!-- featured-imagebox-post end -->
+                            </div>
+                            <!-- featured-imagebox-post end-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <!-- featured-imagebox-post -->
+                            <div class="featured-imagebox featured-imagebox-post style1">
+                                <div class="featured-thumbnail">
+                                    <img width="412" height="451" class="img-fluid" src="images/blog/blog-06.webp" alt="blog-image">
+                                </div>
+                                <!-- featured-content -->
+                                <div class="featured-content">
+                                    <div class="featured-content-inner">
+                                        <div class="post-header">
+                                            <div class="post-title featured-title">
+                                                <h3><a href="blog-single.html">The best template for it solution service</a></h3>
+                                            </div>
+                                            <!-- post-meta -->
+                                            <div class="post-meta">
+                                                <span class="prt-meta-line tag"><a href="#">Car delaer</a></span>
+                                                <span class="prt-meta-line brand">by slivana</span>
+                                                <span class="prt-meta-line date"><i class="flaticon flaticon-calendar"></i>21 January</span>
+                                            </div><!-- post-meta end -->
+                                        </div>
+                                    </div><!-- featured-content end -->
+                                </div><!-- featured-imagebox-post end -->
+                            </div>
+                            <!-- featured-imagebox-post end-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog-section end-->
+
+        </div><!-- site-main end-->
+
+        <!-- footer start -->
+        <footer class="footer widget-footer overflow-hidden clearfix">
+            <div class="second-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                            <div class="footer-widget-box">
+                                <h3 class="widget-title-h3">Vehicle type</h3>
+                                <div class="footer-menu-links">
+                                    <ul class="footer-menu-list">
+                                       <li><a href="#">Sedan</a></li>
+                                       <li><a href="#">Suv</a></li>
+                                       <li><a href="#">Hybrid</a></li>
+                                       <li><a href="#">Electric</a></li>
+                                       <li><a href="#">Toyota</a></li>
+                                       <li><a href="#">Ferrari</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                            <div class="footer-widget-box">
+                                <h3 class="widget-title-h3">Our brand</h3>
+                                <div class="footer-menu-links">
+                                    <ul class="footer-menu-list">
+                                       <li><a href="#">Lamborghini</a></li>
+                                       <li><a href="#">Mazda</a></li>
+                                       <li><a href="#">Toyota</a></li>
+                                       <li><a href="#">Volkswagen</a></li>
+                                       <li><a href="#">Audi</a></li>
+                                       <li><a href="#">Nissan</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="footer-widget-box res-767-mt-30">
+                                <h3 class="widget-title-h3">Useful links</h3>
+                                <div class="footer-menu-links">
+                                    <ul class="footer-menu-list">
+                                        <li class="footer-menu-item"><a href="#">Home</a></li>
+                                        <li class="footer-menu-item"><a href="#">Privacy policy</a></li>
+                                        <li class="footer-menu-item"><a href="#">About us</a></li>
+                                        <li class="footer-menu-item"><a href="#">Terms</a></li>
+                                        <li class="footer-menu-item"><a href="#">Blog</a></li>
+                                        <li class="footer-menu-item"><a href="#">Conditions</a></li>
+                                        <li class="footer-menu-item"><a href="#">Our team</a></li>
+                                        <li class="footer-menu-item"><a href="#">Conditions</a></li>
+                                        <li class="footer-menu-item"><a href="#">Services</a></li>
+                                        <li class="footer-menu-item"><a href="#">Support</a></li>
+                                        <li class="footer-menu-item"><a href="#">Contact us</a></li>
+                                        <li class="footer-menu-item"><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-6 col-12">
+                            <div class="footer-widget-box res-991-mt-30">
+                                <div class="">
+                                    <h3 class="widget-title-h3">Contact</h3>
+                                    <div class="widget-contact-link">
+                                        <span>UA: <a href="tel:1234567890" class="hotline-link">+3 8096 272 2100</a></span>
+                                        <span>59 Street, 1200 Techpark</span>
+                                        <p><span><a class="hotline-link-email" href="mailto:info@example.com">support@example.com</a></span></p>
+                                    </div>
+                                </div>
+                                <div class="mt-40 res-767-mt-20">
+                                    <h3 class="widget-title-h3">Follow us</h3>
+                                    <div class="footer-menu-links pt-5">
+                                        <ul class="social-icons contact-link">
+                                            <li><a target="black" href="https://www.facebook.com/preyantechnosys19" rel="noopener" aria-label="facebook">Facebook</a></li>
+                                            <li><a target="black" href="https://dribbble.com/PreyanTechnosys" rel="noopener" aria-label="dribbble">Dribbble</a></li>
+                                            <li><a target="black" href="https://www.linkedin.com/in/preyan-technosys-pvt-ltd/" rel="noopener" aria-label="linkedin">Linkedin</a></li>
+                                            <li><a target="black" href="https://in.pinterest.com/preyan_technosys/" rel="noopener" aria-label="pinterest">Pinterest</a></li>
+                                            <li><a target="black" href="https://www.instagram.com/preyan_technosys/" rel="noopener" aria-label="instagram">Instagram</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="copyright ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-text">
+                                <div class="cpy-text">
+                                    <p class="mb-0">Copyright © 2024 
+                                        <a href="https://themetechmount.com/">ThemetechMount.</a> All rights reserved. powered by
+                                    <a href="https://preyantechnosys.com/">PreyanTechnosys Pvt. Ltd.</a></p>
+                                </div>
+                                <ul class="footer-nav-menu">
+                                    <li><a href="#"> Privacy policy </a></li>
+                                    <li><a href="#"> Terms and conditions</a></li>
+                                    <li><a href="#"> Help</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+        <!-- back-to-top start -->
+        <a id="totop" href="#top" style="display: inline;" class="top-visible">
+            <i class="icon-angle-up"></i>
+        </a>
+        <!-- back-to-top end -->
+
+    </div><!-- page end -->
+
+    <!-- Javascript -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/Scrolltrigger.js"></script>
+    <script src="js/Splittext.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/jquery-validate.js"></script> 
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/slick.min.js"></script>   
+    <script src="js/numinate.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/imagesloaded.min.js"></script> 
+    <script src="js/jquery-isotope.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 0,
+            duration: 400,
+            delay:0,
+            once: true,
+        });
+    </script>
+
+</body>
+
+<!-- Mirrored from cymolthemes.com/html/autovis/demo3/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 19:22:20 GMT -->
+</html>
