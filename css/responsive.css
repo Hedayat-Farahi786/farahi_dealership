@@ -657,6 +657,10 @@
 
 @media (max-width: 767px){
 
+	.myLogo{
+		width: 150px;
+	}
+
 	.prt-row.cta-section01 { padding: 55px 0 50px !important; }
 	.prt-row.team-info-section { padding: 55px 0 60px !important; }
 	.prt-row.cta-section02 { padding: 40px 0 60px !important; }
