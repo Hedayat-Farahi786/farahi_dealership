@@ -368,7 +368,7 @@
 	.featured-imagebox-service.style2{ display: block; }
 	.featured-imagebox-service.style2 .featured-thumbnail{ max-width: 100%; }
 	.featured-imagebox-service.style2 .featured-content{ padding: 20px 0 0 0; }
-	.featured-icon-box.style4{ padding: 40px 20px 165px; }
+	.featured-icon-box.style4{ padding: 40px 20px 60px; }
 	.prt-location-wrapper .prt-content-wrap{ position: relative; top: auto; }
 	.events-item.style1 .events-thumbnail img{ max-width: 82%;  }
 	.side-menu-container, .header_extra .prt-link a{ display: none; }
@@ -626,7 +626,7 @@
 	section.error-404 h2 { font-size: 300px; line-height: 100%; }
 	section.error-404 .page-header-title:before{ display: none; }
 	.cta-single-image-wrapper{ position: relative; }
-	.cta-content-main h2.title{ font-size: 100px; line-height: 100px; }
+	.cta-content-main h2.title{ font-size: 100px; line-height: 100px; margin-bottom: 0px;}
 	.post.prt-blog-single .prt-blog-single-content h3.entry-title{ font-size: 30px; line-height: 40px; }
 	.social-media-block{ padding: 32px 0 40px; }
 	.featured-imagebox-service.style2{ display: flex; }
@@ -749,7 +749,7 @@
 	.swiper-wrapper .swiper-slide-image{ margin-top: 30px; }
 	article.prt-blog-classic .prt-blog-classic-content{ padding: 35px 30px 40px; }
 	.cta-content-main h2.title,
-	.cta-content-main h2.title span.text2 { font-size: 60px;line-height: 70px; }
+	.cta-content-main h2.title span.text2 { font-size: 60px;line-height: 70px; margin-bottom: 0px; }
 	.cta-single-image-wrapper{ position: relative; right: 0; margin-top: 30px; }
 	.cta-content-main span.pretitle{ font-size: 22px; line-height: 32px; }
 	.post.prt-blog-single blockquote .qoute-text:before{ top: 0; height: 113px; }
@@ -881,7 +881,7 @@
 	.featured-imagebox-offercar .featured-content{ padding: 30px 15px 7px; }
 	section.error-404 h2 { font-size: 100px; line-height: 110px; }
 	section.error-404 .page-header-title img { margin: -20px 10px 0; }
-	.cta-content-main h2.title,.cta-content-main h2.title span.text2 { font-size: 50px; line-height: 60px; }
+	.cta-content-main h2.title,.cta-content-main h2.title span.text2 { font-size: 50px; line-height: 60px; margin-bottom: 0px; }
 	.cta-content-main h2.title br{ display: none; }
 	.prt-copy-link-wrapper{ padding: 8px 12px; display: block; font-size: 12px; line-height: 25px; }
 	.prt-copy-link-wrapper button.copytext{ padding: 0 0 0 6px; border-left: 0; font-size: 11px; margin: 0; }

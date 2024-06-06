@@ -60,6 +60,12 @@
 ------------------------*/
 
 /** Variables **/
+html, body{
+    scroll-behavior: smooth;
+}
+header{
+    z-index: 99;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
     display: block;
 }
@@ -248,7 +254,6 @@ menu, ol, ul {
 .border-color { color: rgba(255, 255, 255, 0.15);}
 .bodyfont-color { color: var(--base-bodyfont-color);}
 .headingfont-color { color: var(--base-headingfont-color); }
-
 /** Background Colors **/
 .bg-base-skin { background-color: var(--base-skin);}
 .bg-base-secondskin { background-color: var(--base-secondskin);}
@@ -258,9 +263,8 @@ menu, ol, ul {
 .bg-base-lightgrey { background-color: var(--base-lightgrey);}
 .bg-base-white { background-color: var(--base-white);}
 .bg-base-black { background-color: var(--base-black);}
-.bg-base-gradient { background-image: linear-gradient(to right,var(--base-first-gradientcolor) 28%,
-                    var(--base-second-gradientcolor) 100%);
-                    background: var(--base-gradient); }
+.bg-base-gradient { 
+                    background: var(--base-skin); }
   
 /** Text Colors **/
 .text-base-skin { color: var(--base-skin);}
